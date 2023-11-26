@@ -1,0 +1,69 @@
+/* Reset default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page background and text styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header styles (Introduction) */
+#introduction {
+    background-color: #762323;
+    color: #333;
+    padding: 60px;
+    text-align: center;
+}
+
+#introduction h1 {
+    font-size: 36px;
+}
+
+#introduction p {
+    font-size: 18px;
+    margin-top: 20px;
+	color: #000;
+}
+
+/* Section styles */
+section {
+    background-color: #8fbc8f;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Pagination styles */
+.pagination {
+    text-align: center;
+    margin: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.pagination a:hover {
+    background-color: #2774a9;
+}
